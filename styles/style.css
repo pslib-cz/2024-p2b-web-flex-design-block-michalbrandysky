@@ -1,15 +1,27 @@
 .content {
-
+    
 }
 .content--wrapper {
 
 }
 
 .article {
-
+    display: flex;
+    column-gap: 1em;
+    
 }
 
 .article__body {
-
+    flex-grow: 1;
 }
 
+.article__header {
+    flex-shrink: 0;
+    align-content: center;
+    text-align: center;
+    align-self: flex-end;
+}
+
+.article__footer{
+    
+}
